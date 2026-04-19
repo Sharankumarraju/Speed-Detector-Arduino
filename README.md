@@ -1,13 +1,13 @@
-# 🚗 IR Sensor Based Speed Detector using Arduino
+# IR Sensor Based Speed Detector using Arduino
 
-## 📌 Project Overview
-This project presents a **Speed Detection System** using Arduino and IR sensors. The system measures the speed of a moving vehicle or object by calculating the time taken to travel between two sensors placed at a fixed distance.
+## Project Overview
+This project presents a Speed Detection System using Arduino and IR sensors. The system measures the speed of a moving vehicle or object by calculating the time taken to travel between two sensors placed at a fixed distance.
 
 The calculated speed is displayed on an LCD screen, and a buzzer alert is triggered when the speed exceeds a predefined limit. This project demonstrates the practical application of embedded systems, sensor interfacing, and real-time data processing.
 
 ---
 
-## ⚙️ Components Used
+## Components Used
 - Arduino UNO  
 - IR Sensors (2)  
 - 16×2 LCD Display with I2C Module  
@@ -18,7 +18,7 @@ The calculated speed is displayed on an LCD screen, and a buzzer alert is trigge
 
 ---
 
-## 🔧 Working Principle
+## Working Principle
 - Two IR sensors are placed at a fixed distance (**assumed to be 1 meter in the code but placed at a distance of 10cm on breadboard because the sensors can't be practically placed 1 meter apart on breadboard**).
 - When a vehicle passes the first sensor, the timer starts.
 - When it reaches the second sensor, the timer stops.
@@ -33,7 +33,7 @@ The calculated speed is displayed on an LCD screen, and a buzzer alert is trigge
 
 ---
 
-## 🧠 Features
+## Features
 - Contactless speed detection  
 - Real-time speed display  
 - Overspeed alert system  
@@ -42,55 +42,55 @@ The calculated speed is displayed on an LCD screen, and a buzzer alert is trigge
 
 ---
 
-## 📷 Project Preview
+## Project Preview
 
-### 🔧 Hardware Setup
+### Hardware Setup
 ![Setup](images/setup.jpg)
 
-### 🚗 Speed Detection Output
+### Speed Detection Output
 ![Speed Output](images/speed.jpg)
 
-### ⚠️ Over Speed Detection
+### Over Speed Detection
 ![Over Speed](images/over_speeding.jpg)
 
-### 🚫 No Vehicle Detected
+### No Vehicle Detected
 ![No Vehicle](images/no_vehicle.jpg)
 
 ---
 
-## 🔌 Connections
+## Connections
 
-### 📟 LCD (I2C)
+### LCD (I2C)
 - VCC → 5V  
 - GND → GND  
 - SDA → A4  
 - SCL → A5  
 
-### 🔴 IR Sensors
+### IR Sensors
 - Sensor 1 OUT → A0  
 - Sensor 2 OUT → A1  
 - VCC → 5V  
 - GND → GND  
 
-### 🔔 Buzzer
+### Buzzer
 - Positive → Pin 13  
 - Negative → GND  
 
 ---
 
-## 💻 Code
+## Code
 The Arduino code for this project is available in this repository.
 
 ---
 
-## 📊 Output
+## Output
 - Displays speed in km/h  
 - Shows "No Vehicle Detected" if only one sensor is triggered  
 - Activates buzzer when speed exceeds the set limit  
 
 ---
 
-## 🚀 Applications
+## Applications
 - Traffic monitoring systems  
 - Speed control systems  
 - Industrial automation  
@@ -98,7 +98,7 @@ The Arduino code for this project is available in this repository.
 
 ---
 
-## 📂 Files Included
+## Files Included
 - Arduino Code (.ino)  
 - Project Report (PDF)  
 - Presentation (PPT/PDF)  
@@ -106,10 +106,17 @@ The Arduino code for this project is available in this repository.
 
 ---
 
-## 👨‍💻 Author
+## Author
 Addepalli Sharan Kumar Raju
 
 ---
 
-## ⭐ Conclusion
+## Conclusion
 This project successfully demonstrates a simple and effective method for speed detection using Arduino and IR sensors. It highlights how basic electronic components can be integrated to build a real-time monitoring system with practical applications.
+
+---
+
+## License
+This project is released under the MIT License.
+
+You are free to use, modify, and distribute this project for any purpose, with or without modification.
