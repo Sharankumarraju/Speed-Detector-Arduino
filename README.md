@@ -19,7 +19,9 @@ The calculated speed is displayed on an LCD screen, and a buzzer alert is trigge
 ---
 
 ## Working Principle
-- Two IR sensors are placed at a fixed distance (**assumed to be 1 meter in the code but placed at a distance of 10cm on breadboard because the sensors can't be practically placed 1 meter apart on breadboard**).
+- Two IR sensors are placed at a fixed distance (10 cm in the hardware setup).
+
+> Note: Due to space limitations on the breadboard, the sensors are placed 10 cm apart physically. The distance is set to 1 meter in the code to obtain scaled speed values.
 - When a vehicle passes the first sensor, the timer starts.
 - When it reaches the second sensor, the timer stops.
 - Speed is calculated using the distance–time relationship:
@@ -106,8 +108,8 @@ The Arduino code for this project is available in this repository.
 
 ---
 
-## Author
-Addepalli Sharan Kumar Raju
+## Team
+This project was developed as a team by A.Sharan Kumar Raju, D.Romith, and K.Advaith.
 
 ---
 
